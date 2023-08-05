@@ -2,7 +2,7 @@ const express = require("express");
 const noteRoutes = require("./routes/noteRoutes");
 
 const app = express();
-const PORT = process.env.Port || 3001;
+const PORT = process.env.PORT || 3001;
 const htmlRouter = require("./routes/html");
 
 app.use(express.json());
